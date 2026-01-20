@@ -39,6 +39,14 @@ Create a new account that looks similar to the “admin” username. The problem
 </div>
 
 ### Task 5: A09: Logging & Alerting Failures
+
+This is a simple event log to look through. Note the timeline descends for recent activities, I thought it was the other way around for a second. But looking through the logs gives you the answers easily.
+
+<div align="center">
+  <img width="702" height="590" alt="image" src="https://github.com/abheekmondal/THM_Walkthroughs/blob/main/Assets/OWASP%20Top%2010%202025%20IAAA%20Failures/A09/flag.jpg" />
+</div>
+
+
 ### Task 6: Conclusion
 	No Answer Needed
 
