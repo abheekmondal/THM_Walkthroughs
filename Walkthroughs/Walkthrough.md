@@ -99,7 +99,7 @@ Now we look at the python code, that is included, the important section is highl
 Modify the request to **POST**, add in *Content-Type* Information (The information is in json format). At the very bottom, add the actual content/payload. For this task it will be {“data”:”debug”}. This will reveal the flag:
 
 <div align="center">
-  <img width="702" height="590" alt="image" src=https://github.com/abheekmondal/THM_Walkthroughs/blob/main/Assets/OWASP%20Top%2010%202025%20Application%20Design%20Flaws/AS03/Supplychain%301.jpg />
+  <img width="702" height="590" alt="image" src=https://github.com/abheekmondal/THM_Walkthroughs/blob/main/Assets/OWASP%20Top%2010%202025%20Application%20Design%20Flaws/AS03/Supplychain%203.jpg />
 </div>
 
 ### Task 4: AS04: Cryptographic Failures
