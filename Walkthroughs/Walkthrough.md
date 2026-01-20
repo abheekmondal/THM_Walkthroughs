@@ -87,7 +87,7 @@ Webpages, by default use GET to receive information, but for this flag, we need 
 Find the request for the */api/process* on **BurpSuite** and send it to the **Repeater**
 
 <div align="center">
-  <img width="702" height="590" alt="image" src=https://github.com/abheekmondal/THM_Walkthroughs/blob/main/Assets/OWASP%20Top%2010%202025%20Application%20Design%20Flaws/AS03/Supplychain 1.jpg />
+  <img width="702" height="590" alt="image" src=https://github.com/abheekmondal/THM_Walkthroughs/blob/main/Assets/OWASP%20Top%2010%202025%20Application%20Design%20Flaws/AS03/Supplychain%201.jpg />
 </div>
 
 ### Task 4: AS04: Cryptographic Failures
