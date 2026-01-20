@@ -97,7 +97,9 @@ Now we look at the python code, that is included, the important section is highl
 </div>
 
 Modify the request to **POST**, add in *Content-Type* Information (The information is in json format). At the very bottom, add the actual content/payload. For this task it will be 
+
     {“data”:”debug”} 
+    
 This will reveal the flag:
 
 <div align="center">
