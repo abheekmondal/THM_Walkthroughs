@@ -166,14 +166,6 @@ Now traverse through */api/messages/**user***, replacing **user** with the diffe
 
 ## Conclusion
 
-This was a straightforward reversing challenge with a small twist at the start. Fixing the binary header and analyzing the password check was enough to reach the flag without overcomplicating things.
+That's it I done. -_-
 
-**Thank you for reading.**
-
-
-```
-hexedit 0x41haz-1640335532346.0x41haz
-```
-<div align="center">
-  <img width="702" height="590" alt="image" src="https://github.com/user-attachments/assets/ed6d0581-db72-4e4d-bd0e-404010467680" />
-</div>
+**Good Luck**
