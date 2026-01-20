@@ -8,10 +8,13 @@ The **OWASP Top 10 2025** rooms are designed to teach you about the Top10 vulner
 
 
 ## OWASP Top 10 2025: IAAA Failures
+
 Here we focus on 3 vulnerabilities: A01, A07, A09
 
 ### Task 1: Introduction
+
 	No Answer Needed
+
 ### Task 2: What is IAAA
 
 '''
@@ -19,7 +22,7 @@ Identity, Authentication, Authorization, Accountability
 '''
 ### Task 3: A01 Broken Access Control
 <div align="center">
-  <img width="702" height="590" alt="image" src="Assets\OWASP Top 10 2025 IAAA Failures\A01\A01.jpg" />
+  <img width="702" height="590" alt="image" src="https://github.com/abheekmondal/THM_Walkthroughs/blob/main/Assets/OWASP%20Top%2010%202025%20IAAA%20Failures/A01/A01.jpg" />
 </div>
 
 ### Task 4: A07: Authentication Failures
