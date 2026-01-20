@@ -149,6 +149,18 @@ Unfortunately, My attackbox didnt have enough time to fully show the results, bu
   <img width="702" height="590" alt="image" src=https://github.com/abheekmondal/THM_Walkthroughs/blob/main/Assets/OWASP%20Top%2010%202025%20Application%20Design%20Flaws/AS06/GoBuster.jpg />
 </div>
 
+Go to the */api/users* to see all the users that are using the app.
+
+<div align="center">
+  <img width="702" height="590" alt="image" src=https://github.com/abheekmondal/THM_Walkthroughs/blob/main/Assets/OWASP%20Top%2010%202025%20Application%20Design%20Flaws/AS06/web2.jpg />
+</div>
+
+Now traverse through */api/messages/**user***, replacing **user** with the different users found under the */api/users*. You will eventually find that */api/messages/admin* will reveal the flag.
+
+<div align="center">
+  <img width="702" height="590" alt="image" src=https://github.com/abheekmondal/THM_Walkthroughs/blob/main/Assets/OWASP%20Top%2010%202025%20Application%20Design%20Flaws/AS06/we2Flag.jpg />
+</div>
+
 ### Task 6: Conclusion
     No Answer Needed
 
