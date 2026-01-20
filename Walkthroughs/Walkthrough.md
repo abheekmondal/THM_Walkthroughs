@@ -48,20 +48,20 @@ This is a simple event log to look through. Note the timeline descends for recen
 
 
 ### Task 6: Conclusion
-	No Answer Needed
+    No Answer Needed
 
 
 ##  OWASP Top 10 2025: IAAA Failures
 
 ### Task 1: Introduction
-  No Answer Needed
+    No Answer Needed
 
 ### Task 2: AS02: Security Misconfigurations
 ### Task 3: AS03: Software Supply Chain Failures
 ### Task 4: AS04: Cryptographic Failures
 ### Task 5: AS06: Insecure Design
 ### Task 6: Conclusion
-  No Answer Needed
+    No Answer Needed
 
 ## Conclusion
 
