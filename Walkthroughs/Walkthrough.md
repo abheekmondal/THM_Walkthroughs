@@ -131,7 +131,7 @@ Now we go to **CyberChef** with this information. Put a *From Base64* block then
 
 ### Task 5: AS06: Insecure Design
 
-
+    http://MachineIP:5005
 
 ### Task 6: Conclusion
     No Answer Needed
