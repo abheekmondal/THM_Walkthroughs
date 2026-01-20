@@ -78,7 +78,17 @@ Here you just need to mess around with the user ID, it only validates and checks
   <img width="702" height="590" alt="image" src=https://github.com/abheekmondal/THM_Walkthroughs/blob/main/Assets/OWASP%20Top%2010%202025%20Application%20Design%20Flaws/AS03/web1.jpg />
 </div>
 
-Webpages, by default use GET to receive information, but for this flag, we need to access the process, which is only available in POST. So, open BurpSuite and enable FoxyProxy to capture the /api/process information.
+Webpages, by default use GET to receive information, but for this flag, we need to access the process, which is only available in POST. So, open **BurpSuite** and enable **FoxyProxy** to capture the */api/process* information.
+
+<div align="center">
+  <img width="702" height="590" alt="image" src=https://github.com/abheekmondal/THM_Walkthroughs/blob/main/Assets/OWASP%20Top%2010%202025%20Application%20Design%20Flaws/AS03/web2.jpg />
+</div>
+
+Find the request for the */api/process* on **BurpSuite** and send it to the **Repeater**
+
+<div align="center">
+  <img width="702" height="590" alt="image" src=https://github.com/abheekmondal/THM_Walkthroughs/blob/main/Assets/OWASP%20Top%2010%202025%20Application%20Design%20Flaws/AS03/Supplychain 1.jpg />
+</div>
 
 ### Task 4: AS04: Cryptographic Failures
 ### Task 5: AS06: Insecure Design
