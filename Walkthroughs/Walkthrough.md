@@ -51,7 +51,7 @@ This is a simple event log to look through. Note the timeline descends for recen
     No Answer Needed
 
 
-##  OWASP Top 10 2025: IAAA Failures
+##  OWASP Top 10 2025: Application Design Flaws
 
 ### Task 1: Introduction
     No Answer Needed
@@ -71,6 +71,15 @@ Here you just need to mess around with the user ID, it only validates and checks
 </div>
 
 ### Task 3: AS03: Software Supply Chain Failures
+
+    http://MachineIP:5003
+
+<div align="center">
+  <img width="702" height="590" alt="image" src=https://github.com/abheekmondal/THM_Walkthroughs/blob/main/Assets/OWASP%20Top%2010%202025%20Application%20Design%20Flaws/AS03/web1.jpg />
+</div>
+
+Webpages, by default use GET to receive information, but for this flag, we need to access the process, which is only available in POST. So, open BurpSuite and enable FoxyProxy to capture the '''/api/process''' information.
+
 ### Task 4: AS04: Cryptographic Failures
 ### Task 5: AS06: Insecure Design
 ### Task 6: Conclusion
