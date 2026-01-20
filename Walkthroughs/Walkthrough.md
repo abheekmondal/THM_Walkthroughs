@@ -103,6 +103,10 @@ Modify the request to **POST**, add in *Content-Type* Information (The informati
 </div>
 
 ### Task 4: AS04: Cryptographic Failures
+
+    http://MachineIP:5004
+Inspect the element of the page and you will notice, there is a decrypt.js file that looks promising
+
 ### Task 5: AS06: Insecure Design
 ### Task 6: Conclusion
     No Answer Needed
