@@ -105,9 +105,34 @@ Modify the request to **POST**, add in *Content-Type* Information (The informati
 ### Task 4: AS04: Cryptographic Failures
 
     http://MachineIP:5004
-Inspect the element of the page and you will notice, there is a decrypt.js file that looks promising
+Inspect the element of the page and you will notice, there is a *decrypt.js* file that looks promising.
+
+<div align="center">
+  <img width="702" height="590" alt="image" src=https://github.com/abheekmondal/THM_Walkthroughs/blob/main/Assets/OWASP%20Top%2010%202025%20Application%20Design%20Flaws/AS04/web1.jpg />
+</div>
+
+Then on the page click on inspect page source. At the very bottom of the page, you will see a hyperlink to the *decrypt.js* code. Click on it and look through the file's code.
+
+<div align="center">
+  <img width="702" height="590" alt="image" src=https://github.com/abheekmondal/THM_Walkthroughs/blob/main/Assets/OWASP%20Top%2010%202025%20Application%20Design%20Flaws/AS04/web3.jpg />
+</div>
+
+On the codes page, look through the *Configuration section*. There are 2 key pieces of information, the **Secret_Key** and the **ENCRYPTION_MODE**
+
+<div align="center">
+  <img width="702" height="590" alt="image" src=https://github.com/abheekmondal/THM_Walkthroughs/blob/main/Assets/OWASP%20Top%2010%202025%20Application%20Design%20Flaws/AS04/web4.jpg />
+</div>
+
+Now we go to **CyberChef** with this information. Put a *From Base64* block then a *AES Decrypt* block configured with the Secret_key and ECB Mode. Then Copy and Paste the Encrypted Document in the Input and obtain the **flag** from the output.
+
+<div align="center">
+  <img width="702" height="590" alt="image" src=https://github.com/abheekmondal/THM_Walkthroughs/blob/main/Assets/OWASP%20Top%2010%202025%20Application%20Design%20Flaws/AS04/Cyberchef.jpg />
+</div>
 
 ### Task 5: AS06: Insecure Design
+
+
+
 ### Task 6: Conclusion
     No Answer Needed
 
