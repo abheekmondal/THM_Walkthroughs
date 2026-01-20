@@ -90,6 +90,20 @@ Find the request for the */api/process* on **BurpSuite** and send it to the **Re
   <img width="702" height="590" alt="image" src=https://github.com/abheekmondal/THM_Walkthroughs/blob/main/Assets/OWASP%20Top%2010%202025%20Application%20Design%20Flaws/AS03/Supplychain%201.jpg />
 </div>
 
+Now we look at the python code, that is included, the important section is highlighted in red, under the process class. This tells us that if we send a JSON content where *“data” = “debug”*, it will reveal information about the API
+
+<div align="center">
+  <img width="702" height="590" alt="image" src=https://github.com/abheekmondal/THM_Walkthroughs/blob/main/Assets/OWASP%20Top%2010%202025%20Application%20Design%20Flaws/AS03/Coe.jpg />
+</div>
+
+Modify the request to **POST**, add in *Content-Type* Information (The information is in json format). At the very bottom, add the actual content/payload. For this task it will be 
+    {“data”:”debug”} 
+This will reveal the flag:
+
+<div align="center">
+  <img width="702" height="590" alt="image" src=https://github.com/abheekmondal/THM_Walkthroughs/blob/main/Assets/OWASP%20Top%2010%202025%20Application%20Design%20Flaws/AS03/Supplychain%301.jpg />
+</div>
+
 ### Task 4: AS04: Cryptographic Failures
 ### Task 5: AS06: Insecure Design
 ### Task 6: Conclusion
