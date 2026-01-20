@@ -57,6 +57,19 @@ This is a simple event log to look through. Note the timeline descends for recen
     No Answer Needed
 
 ### Task 2: AS02: Security Misconfigurations
+
+    http://MachineIP:5002
+
+<div align="center">
+  <img width="702" height="590" alt="image" src=https://github.com/abheekmondal/THM_Walkthroughs/blob/main/Assets/OWASP%20Top%2010%202025%20Application%20Design%20Flaws/AS02/web1.jpg />
+</div>
+
+Here you just need to mess around with the user ID, it only validates and checks for numerical ids, so if you add alphanumeric characters, the webpage breaks, giving you the flag.
+
+<div align="center">
+  <img width="702" height="590" alt="image" src=https://github.com/abheekmondal/THM_Walkthroughs/blob/main/Assets/OWASP%20Top%2010%202025%20Application%20Design%20Flaws/AS02/web2.jpg />
+</div>
+
 ### Task 3: AS03: Software Supply Chain Failures
 ### Task 4: AS04: Cryptographic Failures
 ### Task 5: AS06: Insecure Design
