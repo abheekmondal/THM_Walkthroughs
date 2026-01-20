@@ -17,9 +17,9 @@ Here we focus on 3 vulnerabilities: A01, A07, A09
 
 ### Task 2: What is IAAA
 
-'''
-Identity, Authentication, Authorization, Accountability
-'''
+
+  Identity, Authentication, Authorization, Accountability
+
 ### Task 3: A01 Broken Access Control
 <div align="center">
   <img width="702" height="590" alt="image" src="https://github.com/abheekmondal/THM_Walkthroughs/blob/main/Assets/OWASP%20Top%2010%202025%20IAAA%20Failures/A01/A01.jpg" />
