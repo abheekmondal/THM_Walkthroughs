@@ -133,6 +133,21 @@ Now we go to **CyberChef** with this information. Put a *From Base64* block then
 
     http://MachineIP:5005
 
+Look through the webpage, inspect its network requests, source code, all of it will reveal that the download button is a dead button, and there are no other links that are explicitly revealed/available.
+
+<div align="center">
+  <img width="702" height="590" alt="image" src=https://github.com/abheekmondal/THM_Walkthroughs/blob/main/Assets/OWASP%20Top%2010%202025%20Application%20Design%20Flaws/AS06/we1.jpg />
+</div>
+
+Now open your **shell** and open **gobuster** with the following command:
+    gobuster dir -u http://10.49.160.9:5005/ -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
+
+Unfortunately, My attackbox didnt have enough time to fully show the results, but you should see 2 results. One of them should be *users* or *messages*
+
+<div align="center">
+  <img width="702" height="590" alt="image" src=https://github.com/abheekmondal/THM_Walkthroughs/blob/main/Assets/OWASP%20Top%2010%202025%20Application%20Design%20Flaws/AS06/GoBuster.jpg />
+</div>
+
 ### Task 6: Conclusion
     No Answer Needed
 
